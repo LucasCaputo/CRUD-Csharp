@@ -1,0 +1,6 @@
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.exe.config
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.exe
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.pdb
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.exe
+C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.pdb
