@@ -4,3 +4,9 @@ C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\bin\Debug\CRU
 C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.csprojAssemblyReference.cache
 C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.exe
 C:\Users\Acer\source\repos\CRUD - ORGANICA ABC\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.pdb
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.exe.config
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.exe
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\bin\Debug\CRUD - ORGANICA ABC.pdb
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.csprojAssemblyReference.cache
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.exe
+C:\Users\Lucas\Desktop\crud-Csharp\CRUD - ORGANICA ABC\obj\Debug\CRUD - ORGANICA ABC.pdb

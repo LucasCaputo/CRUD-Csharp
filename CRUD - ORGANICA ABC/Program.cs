@@ -1145,8 +1145,7 @@ namespace ERP_OrgânicaABC
                 case ConsoleKey.F4:
                     {
 
-                        ConsultaClienteTodos();
-                        Console.WriteLine("Aperte qualquer tecla para voltar para o Sub Menu de Cliente.");
+                        ConsultaClienteTodos();                        
                         Console.WriteLine("Aperte qualquer tecla para voltar ao menu consultas");
                         Console.ReadKey();
                         ConsultaCliente();
@@ -1216,120 +1215,131 @@ namespace ERP_OrgânicaABC
                                 {
                                     Console.Write("\nInforme o novo nome do cliente: ");
                                     string alteracao = Console.ReadLine().ToUpper();
-                                    
-                                        for (int i = 0; i < matrizCliente.GetLength(0); i++)
-                                        {
-                                            if(matrizCliente[i, 1] == busca) {
+                                    resultCliente = MessageBox.Show("Deseja realmente mudar o nome do cliente?", "Editar Nome do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                                             matrizCliente[i, 1] = alteracao;                                               
-                                            Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                            Console.ReadKey();
-                                            SubMenuCliente();                                           
-                                    
-                                            }
-                                        }                                    
+
+                                if (resultCliente == DialogResult.Yes)
+                                {
+
+                                    for (int i = 0; i < matrizCliente.GetLength(0); i++)
+                                    {
+                                        matrizCliente[i, 1] = alteracao.ToUpper();
+
+                                        Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                        Console.ReadKey();
+                                        SubMenuCliente();
+
+                                    }
                                 }
-                                break;
+                            }
+                            break;
                             case ConsoleKey.F3:
                                 {
-                                    Console.Write("Informe o novo telefone do cliente: ");
-                                    busca = Console.ReadLine();
-                                    
-                                        for (int i = 0; i < matrizCliente.GetLength(0); i++)
-                                        {
-                                            matrizCliente[i, 2] = busca;
-                                        }                                    
+                                    Console.Write("\nInforme o novo telefone do cliente: ");
+                                    string alteracao = Console.ReadLine().ToUpper();
+                                    resultCliente = MessageBox.Show("Deseja realmente mudar o telefone do cliente?", "Editar Telefone do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                                    Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                    Console.ReadKey();
-                                    SubMenuCliente();
+
+                                if (resultCliente == DialogResult.Yes)
+                                {
+
+                                    for (int i = 0; i < matrizCliente.GetLength(0); i++)
+                                    {
+                                        matrizCliente[i, 2] = alteracao;
+
+                                        Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                        Console.ReadKey();
+                                        SubMenuCliente();
+
+                                    }
                                 }
-                                break;
+                            }
+                            break;
                             case ConsoleKey.F4:
                                 {
 
-                                    Console.Write("Informe o novo CPF do cliente: ");
-                                    AuxCliente[linha, 3] = Console.ReadLine().ToUpper();
-                                    resultCliente = MessageBox.Show("Deseja realmente mudar o CPF do cliente?", "Editar CPF cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                                    Console.Write("\nInforme o novo CPF do cliente: ");
+                                    string alteracao = Console.ReadLine().ToUpper();
+                                    resultCliente = MessageBox.Show("Deseja realmente mudar o CPF do cliente?", "Editar CPF do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
-                                    if (resultCliente == DialogResult.Yes)
+                                if (resultCliente == DialogResult.Yes)
+                                {
+
+                                    for (int i = 0; i < matrizCliente.GetLength(0); i++)
                                     {
-                                        for (int i = 0; i < matrizCliente.GetLength(0); i++)
-                                        {
-                                            matrizCliente[i, 3] = AuxCliente[i, 3];
-                                        }
+                                        matrizCliente[i, 3] = alteracao;
+
+                                        Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                        Console.ReadKey();
+                                        SubMenuCliente();
 
                                     }
-
-                                    Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                    Console.ReadKey();
-                                    SubMenuCliente();
                                 }
-                                break;
+                            }
+                            break;
                             case ConsoleKey.F5:
                                 {
 
-                                    Console.Write("Informe o nova cidade do cliente: ");
-                                    AuxCliente[linha, 4] = Console.ReadLine();
+                                    Console.Write("\nInforme o nova cidade do cliente: ");
+                                    string alteracao = Console.ReadLine().ToUpper();
                                     resultCliente = MessageBox.Show("Deseja realmente mudar a cidade do cliente?", "Editar Cidade do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
                                     if (resultCliente == DialogResult.Yes)
                                     {
+
                                         for (int i = 0; i < matrizCliente.GetLength(0); i++)
-                                        {
-                                            matrizCliente[i, 4] = AuxCliente[i, 4];
+                                        {                                           
+                                                matrizCliente[i, 4] = alteracao.ToUpper();
+
+                                                Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                                Console.ReadKey();
+                                                SubMenuCliente();                                         
+
                                         }
-
                                     }
-
-                                    Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                    Console.ReadKey();
-                                    SubMenuCliente();
                                 }
                                 break;
                             case ConsoleKey.F6:
                                 {
 
-                                    Console.Write("Informe o novo email do cliente: ");
-                                    AuxCliente[linha, 5] = Console.ReadLine();
-                                    resultCliente = MessageBox.Show("Deseja realmente mudaro email do cliente?", "Editar Email do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                                    Console.Write("\nInforme o novo email do cliente: ");
+                                    string alteracao = Console.ReadLine();
+                                    resultCliente = MessageBox.Show("Deseja realmente mudar o e-mail do cliente?", "Editar E-mail do Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
-                                    if (resultCliente == DialogResult.Yes)
-                                    {
-                                        for (int i = 0; i < matrizCliente.GetLength(0); i++)
-                                        {
-                                            matrizCliente[i, 3] = AuxCliente[i, 3];
-                                        }
-
-                                    }
-
-                                    Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                    Console.ReadKey();
-                                    SubMenuCliente();
-                                }
-                                break;
-                            case ConsoleKey.F7:
+                                if (resultCliente == DialogResult.Yes)
                                 {
 
+                                    for (int i = 0; i < matrizCliente.GetLength(0); i++)
+                                    {
+                                        matrizCliente[i, 5] = alteracao;
+
+                                        Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                        Console.ReadKey();
+                                        SubMenuCliente();
+
+                                    }
+                                }
+                            }
+                            break;
+                            case ConsoleKey.F7:
+                                {
                                     resultCliente = MessageBox.Show("Deseja realmente excluir o cliente?", "Excluir Cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                                    AuxCliente[linha, 6] = "Inativo";
+                                    string alteracao = "Inativo";
 
                                     if (resultCliente == DialogResult.Yes)
                                     {
                                         for (int i = 0; i < matrizCliente.GetLength(0); i++)
                                         {
-                                            matrizCliente[i, 6] = AuxCliente[i, 6];
+                                            matrizCliente[i, 6] = alteracao;
+
+                                            Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
+                                            Console.ReadKey();
+                                            SubMenuCliente();
                                         }
-
-                                    }
-
-                                    Console.WriteLine("Alteração realizada com sucesso! Precione qualquer tecla para voltar ao submenu cliente");
-                                    Console.ReadKey();
-                                    SubMenuCliente();
-
+                                    }                                   
                                 }
                                 break;
                             case ConsoleKey.Escape:
@@ -1998,10 +2008,10 @@ namespace ERP_OrgânicaABC
         }
         static void Main(string[] args)
         {
-            BancodeDados();
-            Console.SetWindowSize(145, 38);
-             TelaAbertura();
-             TelaCarregamento();
+             BancodeDados();
+             Console.SetWindowSize(145, 38);
+             //TelaAbertura();
+            // TelaCarregamento();
 
             if (AcessoUsuário() == true)
             {
