@@ -37,6 +37,10 @@ Cadastro de:
   Fazer conexão com banco de dados;
   utilizar objetos em vez de matriz;
   
+  *********Para ver o código aqui no Git *********
+  
+  Vá até a PASTA "CRUD - ORGANICA ABC" >>> Arquivo "Program.cs"
+  
   ********* Modo de inicialização ****************
   
   Baixe o código em sua máquina; 
@@ -45,5 +49,4 @@ Cadastro de:
   Aperte F5 para rodar o código;
   ** usuário de acesso admin e senha admin1234
   
-  *******DEIXE SEU COMENTÁRIO PARA MELHORIAS OU ME AJUDE A MELHORAR ESSE CÓDIGO*******
   
