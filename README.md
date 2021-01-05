@@ -7,7 +7,7 @@
   Curso GoStack - Rocket Seat
 </h3>
 
-<p align="center">Neste repositório, você vai encontrar os desafios desenvolvidos durante o<br/>Bootcamp GoStack da Rocketseat 🎓 (2021). <br/> O curso contempla o Backend, Frontend e Mobile com Node.JS, Express, React.JS, React Native e TypeScript.</p>
+<p align="center">Neste repositório, você vai encontrar os desafios desenvolvidos durante o<br/>Bootcamp GoStack da Rocketseat 🎓 (2021). <br/> O curso contempla o Backend, Frontend, Mobile, Node.JS, Express, React.JS, React Native e TypeScript.</p>
 
 ### 🛠 Tecnologias
 
@@ -19,11 +19,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
- 
-# :memo: License
-
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
-
 
 ### Autor
 ---
@@ -32,7 +27,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) file for mo
 <a href="https://www.linkedin.com/in/lucascaputo/">
  <img style="border-radius: 50%" src="https://avatars2.githubusercontent.com/u/51523433?s=460&u=b484a77c22f9ff70c975e242ae41fabdce39c780&v=4" width="100px;" alt="Lucas Caputo"/>
  <br />
- <sub><b>Lucas Caputo</b></sub></a> <a href="https://www.linkedin.com/in/lucascaputo/" title=" LinkedIn Lucas Caputo">🚀</a>
+ <sub><b>Lucas Caputo</b></sub></a> <a href="https://www.linkedin.com/in/lucascaputo/" title=" LinkedIn">🚀</a>
 
 Feito com ❤️ por Lucas Caputo 
 </div>
