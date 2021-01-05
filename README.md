@@ -1,52 +1,38 @@
-# CRUD-Csharp
+<h1 align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</h1>
 
-CRUD em C# em desenvolvimento. 
+<h3 align="center">
+  <img alt="GoStack" src="assets/gobarber_logo.png" width="200px" /> <br/><br/>
+  Curso GoStack - Rocket Seat
+</h3>
 
-Cadastro de:
-  Funcionários;
-  Clientes;
-  Produtos;
-  Emissão de vendas;
-  Relatórios;
-  
-  *O sistema já possui funcionários, clientes e produtos cadastrados.
-  *O login é admin e a senha é admin1234.
-  
-  Funcionários, Clientes e Produtos possuem em comum as funções de :
-  
-  Novo Cadastro;
-  Edição de Cadastros;
-  Exclusão de Cadastros;
-  Busca e listagem de cadastros;
-  
-  O objetivo desse projeto é desenvolver lógica de programação para iniciantes com a utilização de: 
-  
-  -Variáveis; 
-  -Operadores lógicos e aritméticos;
-  -if, else, for, while, do while, else if;
-  -switch;
-  -Funções;
-  -Array, Matriz;
-  
-  Esse projeto foi proposto no 1º período de Análise e Desenvolvimento do COTEMIG, mas não finalizado.
-  
-  O ojetivo é terminar o CRUD com todas as funcionalidades.
-  
-  Pontos de futuras melhorias: 
-  
-  Fazer conexão com banco de dados;
-  utilizar objetos em vez de matriz;
-  
-  *********Para ver o código aqui no Git *********
-  
-  Vá até a PASTA "CRUD - ORGANICA ABC" >>> Arquivo "Program.cs"
-  
-  ********* Modo de inicialização ****************
-  
-  Baixe o código em sua máquina; 
-  Vá até o arquivo CRUD - ORGANICA ABC.sln;
-  Abra o arquivo utilizando o Visual Studio;
-  Aperte F5 para rodar o código;
-  ** usuário de acesso admin e senha admin1234
-  
-  
+<p align="center">Neste repositório, você vai encontrar os desafios desenvolvidos durante o<br/>Bootcamp GoStack da Rocketseat 🎓 (2021). <br/> O curso contempla o Backend, Frontend e Mobile com Node.JS, Express, React.JS, React Native e TypeScript.</p>
+
+### 🛠 Tecnologias
+
+Este projeto foi desenvolvido em Typescript utilizando metodologia ágil, DDD e TDD, React Hooks, styled-components, SOLID e agilidade prática de código limpo.
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+ 
+# :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+
+
+### Autor
+---
+
+<div align="center">
+<a href="https://www.linkedin.com/in/lucascaputo/">
+ <img style="border-radius: 50%" src="https://avatars2.githubusercontent.com/u/51523433?s=460&u=b484a77c22f9ff70c975e242ae41fabdce39c780&v=4" width="100px;" alt="Lucas Caputo"/>
+ <br />
+ <sub><b>Lucas Caputo</b></sub></a> <a href="https://www.linkedin.com/in/lucascaputo/" title="Lucas Caputo">🚀</a>
+
+Feito com ❤️ por Lucas Caputo 
+</div>
