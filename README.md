@@ -11,9 +11,9 @@
 
 ### 🛠 Tecnologias
 
-Este projeto foi desenvolvido em Typescript utilizando metodologia ágil, DDD e TDD, React Hooks, styled-components, SOLID e agilidade prática de código limpo.
+Este curso é desenvolvido em Typescript utilizando metodologia ágil, DDD e TDD, React Hooks, styled-components, SOLID e agilidade prática de código limpo.
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas são utilizada:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
@@ -27,7 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/lucascaputo/">
  <img style="border-radius: 50%" src="https://avatars2.githubusercontent.com/u/51523433?s=460&u=b484a77c22f9ff70c975e242ae41fabdce39c780&v=4" width="100px;" alt="Lucas Caputo"/>
  <br />
- <sub><b>Lucas Caputo</b></sub></a> <a href="https://www.linkedin.com/in/lucascaputo/" title=" LinkedIn">🚀</a>
+ <sub><b>Lucas Caputo</b></sub></a> <a href="https://www.linkedin.com/in/lucascaputo/" title="LinkedIn">🚀</a>
 
 Feito com ❤️ por Lucas Caputo 
 </div>
