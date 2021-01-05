@@ -8,7 +8,7 @@
 
 ### 🎓 2.2 - Instalando Yarn
 
-- [Node](https://classic.yarnpkg.com/en/docs/install/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 
 ### 👨‍🎓 2.3 - Escrita de Código
 
@@ -32,8 +32,6 @@
 
 - [Download do Git](https://git-scm.com/downloads)
 
-- [Download do Git](https://git-scm.com/downloads)
-
 - [Configurando Alias Git](https://gist.github.com/diego3g/2b563e54e82bed5530d8346b89a701ab)
 
 
@@ -42,7 +40,7 @@
 - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR)
 <p>Clicando no plugin na barra do chrome e selecionado opções é possível modificar o tema para o Drácula</p>
 
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)]
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 - [Octotree - GitHub code tree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc?hl=pt-BR)
 
