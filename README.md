@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  <img alt="GoStack" src="assets/gobarber_logo.png" width="200px" /> <br/><br/>
+  <img alt="GoStack" src="assets/gobarber_logo.png" width="100%" /> <br/><br/>
   Curso GoStack - Rocket Seat
 </h3>
 
