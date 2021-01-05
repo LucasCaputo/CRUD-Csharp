@@ -30,8 +30,6 @@
 
 ### 🥇 2.4 - Git/GitHub
 
-- [Download do Git](https://git-scm.com/downloads)
-
 - [Configurando Alias Git](https://gist.github.com/diego3g/2b563e54e82bed5530d8346b89a701ab)
 
 
